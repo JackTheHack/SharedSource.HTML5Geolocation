@@ -5,7 +5,7 @@ This NuGet package enables to support the HTML5 geolocation in Sitecore analytic
 
 Run the following command in NuGet Manager Console:
 
-```Install-Package SharedSource.HTML5Geolocation -Version 1.0.0.0 -Source https://www.myget.org/F/jackspektor/api/v3/index.json```
+```Install-Package SharedSource.HTML5Geolocation -Version 1.0.0.0 -Source https://www.myget.org/F/jackspektor/api/v3/index.json
 
 # Dependencies and requirements
 - Sitecore 7.5 and higher
@@ -23,4 +23,4 @@ Run the following command in NuGet Manager Console:
 <script type="text/javascript">
 	var geolocationModule = GeoModule(jQuery, Cookies);
 	geolocationModule.initializeGeolocation();
-</script>```
+</script>
