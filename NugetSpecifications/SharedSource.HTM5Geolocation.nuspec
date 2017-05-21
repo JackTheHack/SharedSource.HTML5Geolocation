@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SharedSource.HTML5Geolocation</id>
+    <version>1.0.0.0</version>
+    <title>Sitecore HTML5 Geolocation provider</title>
+    <authors>Cucumber</authors>
+    <owners>Cucumber</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Installation: Install the NuGet package and reference the JS files in the layout.
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>HTML5, Sitecore</tags>
+    <!-- Build actions for items in the contentFiles folder -->
+    <contentFiles>
+      <files include="*" buildAction="Content"/>
+    </contentFiles>
+  </metadata>
+  <files>
+    <!--<file src="..\Sitecore.Wffm.AzureUploadField\bin\\Microsoft.WindowsAzure.Storage.dll" target="lib"/>
+    <file src="..\Sitecore.Wffm.AzureUploadField\bin\\ImageResizer.dll" target="lib"/>-->
+    <file src="..\SharedSource.HTML5Geolocation\bin\SharedSource.HTML5Geolocation.dll" target="lib"/>
+	<file src="..\SharedSource.HTML5Geolocation\Scripts\GeolocationModule.js" target="content\Scripts\GeolocationModule.js"/>
+    <file src="..\SharedSource.HTML5Geolocation\App_Config\Include\SharedSource.HTML5Geolocation.config" target="content\App_Config\Include\SharedSource.HTML5Geolocation.config"/>
+  </files>
+
+</package>
